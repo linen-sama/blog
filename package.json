@@ -21,6 +21,7 @@
         "@inertiajs/progress": "^0.2.7",
         "@vue/compiler-sfc": "^3.2.36",
         "vue": "^3.2.36",
-        "vue-loader": "^16.8.3"
+        "vue-loader": "^16.8.3",
+        "ziggy-js": "^1.4.6"
     }
 }
