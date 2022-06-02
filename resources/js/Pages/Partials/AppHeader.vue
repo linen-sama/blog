@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse  w-auto" id="sidenav-collapse-main" style="height: auto">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <inertia-link :href="route('post.create')" :class="route().current('post.create') ? 'nav-link active' : 'nav-link'">
+                    <inertia-link :href="route('admin.post.create')" :class="route().current('admin.post.create') ? 'nav-link active' : 'nav-link'">
                         <div
                             class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
@@ -41,7 +41,7 @@
                     </inertia-link>
                 </li>
                 <li class="nav-item">
-                    <inertia-link :href="route('post.index')" :class="route().current('post.index') ? 'nav-link active' : 'nav-link'">
+                    <inertia-link :href="route('admin.post.index')" :class="route().current('admin.post.index') ? 'nav-link active' : 'nav-link'">
                         <div
                             class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1"
